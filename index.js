@@ -17,7 +17,7 @@ mongoose.connect('mongodb+srv://johnahn:abcd1234@boilerplate.sogfg.mongodb.net/m
     .catch(err => console.log(err))
 
 app.get('/', (req, resp) => {
-    resp.send("Hello World!~~ 안녕하세요 ~ ")
+    resp.send("Hello World!~~ 안녕하세요 ~ 새해복 많이 받으세요")
 })
 
 app.post('/register', (req, resp) => {
